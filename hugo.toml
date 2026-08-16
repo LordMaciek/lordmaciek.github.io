@@ -1,0 +1,4 @@
+baseURL = 'https://maciejka.github.io/'
+languageCode = 'pl-pl'
+title = "Maciejka"
+theme = 'terminal'

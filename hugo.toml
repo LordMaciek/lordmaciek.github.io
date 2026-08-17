@@ -1,5 +1,5 @@
 baseURL = 'https://lordmaciek.github.io/'
-languageCode = 'pl-pl'
+languageCode = 'en-en'
 title = "Maciejka"
 theme = 'terminal'
 pagination.pagerSize = 5

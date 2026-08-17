@@ -11,7 +11,7 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-draft = true
+draft = false
 +++
 
 # Wraiths in the Machine: How Bots Artificially Amplify Online Hate

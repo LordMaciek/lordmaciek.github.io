@@ -14,8 +14,6 @@ showLanguageSelector = false
 # set theme to full screen width
 fullWidthTheme = false
 
-# center theme with default width
-centerTheme = true
 
 # if your resource directory contains an image called `cover.(jpg|png|webp)`,
 # then the file will be used as a cover automatically.
@@ -63,7 +61,7 @@ noClasses = false
 [languages]
 [languages.en]
 languageName = "English"
-title = "Terminal"
+title = "Maciejka Blog"
 
 [languages.en.params]
 subtitle = "A simple, retro theme for Hugo"
@@ -79,9 +77,11 @@ missingContentMessage = "Page not found..."
 missingBackButtonLabel = "Back to home page"
 minuteReadingTime = "min read"
 words = "words"
+# center theme with default width
+centerTheme = true
 
 [languages.en.params.logo]
-logoText = "Terminal"
+logoText = "Maciejka"
 logoHomeLink = "/"
 
 [languages.en.menu]

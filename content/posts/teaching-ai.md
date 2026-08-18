@@ -1,5 +1,5 @@
 +++
-title = "Teaching Ai"
+title = "Teaching in the age of AI"
 date = "2026-08-18T09:35:29+02:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "Maciek"
@@ -25,5 +25,6 @@ Kiedy chodziłem do szkoły średniej i na początku studiów, źródłem niepok
 
 ## Nieuczciwi studenci
 
-Tak jak w tamtych, zamieszchłych czasach, tak i dziś, u podstaw znacznej części lęków towarzyszących wchodzeniu AI pod strzechy, leży przeświadczenie, żę 
+Tak jak w tamtych, zamieszchłych czasach, tak i dziś, u podstaw znacznej części lęków towarzyszących wchodzeniu AI pod strzechy, leży przeświadczenie, że tak, jak człowiek jest zwierzęciem społecznym, tak student - ściągającym. Oczywiście, studenci ściągają. Nieuczciwe rozwiązywanie problemów na skróty zdarza się wszędzie i akademia nie jest tu wyjątkiem. Pierwszym odruchem jest zakazywanie i kontrola. To ustawia prowadzącego w roli policyjnej, z której w dodatku nie może się skutecznie wywiązać, przez brak nardzędzi. Nie od dziś ściąganie to wyścig zbrojeń.
+W przypadku AI sytuacja jest dodatkowo skomplikowana, gdy nie mamy do dyspozycji gotowych zaleceń, jak sobie radzić z nieuczciwym wykorzystaniem AI. Ani jak uczyć uczciwego. O ile zasady dotyczące na przykład plagiatu są spisane, znane i obowiązują wszystkich, o tyle podejście do ejajców reprezentowane przez osobę prowadzącą zajęcia jest obowiązycym prawem. Z drugiej strony 
 

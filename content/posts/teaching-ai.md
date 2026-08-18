@@ -14,6 +14,7 @@ hideComments = false
 draft = true
 +++
 
+# DRAFT
 # Dydaktyka w czasach AI
 
 Nauczam. Na jednej z warszawskich uczelni. W związku z tym, co będę pisał, mój prawnik polecił mi nie ujawniać na której. Tak naprawdę to nie mam czegoś takiego jak "mój prawnik", ale ostrożności nigdy za wiele. W każdym razie uczę różnych rzeczy. W związku z tym faktem, moja praca jest bezpośrednio dotknięta rozwojem Wielkich Modeli Językowych, zwanych dalej ejajcami. Otóż dzieje się. Zdarza się, że studenci piszą całe prace zaliczeniowe (np. typu magisterka) z użyciem ejajców, nawet ich nie czytając. Żeby dodać sprawie pinkanterii, nauczyciele czasem sprawdzają prace domowe za pomocą ejajców, nawet ich nie czytając. I nie czytając informacji zwrotnej dla studentów, wygenerowanych przez ejajca. Prosta droga do sytuacji, gdzie zamiast relacji student - nauczyciel, będziemy mieć do czynienia z ejajcami nawzajem czytającymi swoje wytwory. I tylko AI-korpo zarobi, bo skończą ci się darmowe tokeny i będziesz musiał zapłacić.

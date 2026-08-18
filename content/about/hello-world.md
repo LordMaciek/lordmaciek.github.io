@@ -16,4 +16,6 @@ draft = false
 
 ## Uruchomiłem bloga
 
-Cześć, jestem Maciek. Czasem coś piszę. Zdarza się, że ktoś to opublikuje, zdarza się że nikt nie jest zainteresowany. Z racji rozczarowania mediami społecznościowymi (coś o tym też napiszę), założyłem bloga. Będę tu wrzucał rzeczy nieregularnie. Czasem będą poważne teksty, ale nie obiecuję, że tylko. Czasem będę pisał po polsku, czasem po angielsku.
+Cześć, jestem Maciek. Czasem coś piszę. Zdarza się, że ktoś to opublikuje, zdarza się że nikt nie jest zainteresowany. Z racji rozczarowania mediami społecznościowymi (coś o tym też napiszę), założyłem bloga. Będę tu wrzucał rzeczy nieregularnie. Czasem będą poważne teksty, ale nie obiecuję, że tylko. Czasem będę pisał po polsku, czasem po angielsku.  
+[📡 RSS](https://lordmaciek.github.io/index.xml)  
+{{< email >}}

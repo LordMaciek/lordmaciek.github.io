@@ -30,6 +30,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      # NEW: keep the posts feed for the toot job
+      - name: Save feed for Mastodon job
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed
+          path: ./public/posts/index.xml
 
   deploy:
     needs: build
@@ -40,3 +46,31 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # NEW: announce new posts once the deploy has succeeded
+  toot:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: feed
+          path: feed
+      - name: Toot new posts
+        env:
+          FEED_FILE: feed/index.xml
+          MASTODON_INSTANCE: ${{ vars.MASTODON_INSTANCE }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+        run: python3 .github/scripts/toot_new_posts.py
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/mastodon-posted.txt
+          git diff --cached --quiet && exit 0
+          git commit -m "Record tooted posts"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
